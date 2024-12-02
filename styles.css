@@ -1,0 +1,148 @@
+/* General Reset */
+body, h2, p, a, img, nav {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-right: 1px solid #ddd;
+}
+
+.topnav a:hover {
+    background-color: #36722b;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #235724;
+    color: white;
+}
+
+
+
+marquee {
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px;
+    background-color: #000000;
+    text-align: center;
+    border: 1px solid #ddd;
+    margin-top: 0px; 
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    position: fixed;
+    top: 50px; 
+    width: 100%; 
+    z-index: 999;
+}
+
+
+/* Header Image */
+.header-image .full-width-image {
+    width: 100%;
+    height: 20cm;
+    display: block;
+    
+
+}
+
+
+
+
+
+/* Flex Container */
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+   
+}
+
+
+.flex-item {
+    flex: 1;
+    margin: 0 1rem;
+    text-align: center;
+}
+
+.flex-item img {
+    width: 100%;
+    height: auto;
+}
+
+/* About Section */
+.about-section {
+    display: flex;
+    margin: 5rem 0;
+}
+
+.about-image img {
+    width: 85%;
+    margin-left: 1rem;
+  
+}
+
+
+
+/* Staff Section */
+.staff-section {
+    margin: 2rem 0;
+}
+
+.staff-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+.staff-item {
+    text-align: center;
+}
+
+.staff-item img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+/* Contact Section */
+.contact-section {
+    margin: 2rem 0;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    background-color: teal;
+    color: white;
+    padding: 1rem;
+}
+
+
+
+/* Blinking text */
+h1 { text-align: center;
+    font-size: 2.5rem;
+    color:black;
+    animation: blink 1s step-start infinite;
+}
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
